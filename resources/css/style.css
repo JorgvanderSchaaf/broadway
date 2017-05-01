@@ -3,7 +3,7 @@ body {
   font-family: helvetica;
 }
 
-h1 {
+.content h1 {
   font-size: 70px;
   font-weight: bold;
   color: white;
@@ -23,21 +23,24 @@ p {
   font-size: 14px;
 }
 
-header {
+.banner {
   background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  
 }
 
-header a {
+.nav a {
   color: white;
+  font-size: 18px;
 }
 
-  h4 {
-    font-size: 18px;
-    color: white;
-  }
+
 
 .designed {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
+  background: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png")
+  no-repeat center;
   font-size: 23px;
   font-weight: bold;
   color: white;
